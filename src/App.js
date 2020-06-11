@@ -14,8 +14,12 @@ import { SnackbarProvider } from "notistack";
 
 import Home from "./components/Home";
 import { theme } from "./theme.js";
+
 import PublicRoute from "./components/Route/PublicRoute.js";
 import WorldMap from "./components/Maps/WorldMap";
+import Page404 from "./components/Page404";
+import IndiaMap from "./components/Maps/IndiaMap";
+import StaticsticsTable from "./components/StaticsticsTable";
 
 function App() {
     return (
@@ -27,6 +31,9 @@ function App() {
                         <Switch>
                             <PublicRoute exact path="/" title="Home " component={Home}/>
                             <PublicRoute exact path="/world_map" title="Home " component={WorldMap}/>
+                            <PublicRoute exact path="/india_map" title="Home " component={IndiaMap}/>
+                            <PublicRoute exact path="/india_table" title="Home " component={StaticsticsTable}/>
+                            <PublicRoute component={Page404} />
                         </Switch>
                     </Router>
                 </SnackbarProvider>

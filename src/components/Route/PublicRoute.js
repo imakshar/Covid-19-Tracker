@@ -8,6 +8,7 @@ const Wrapper = (props) => {
         <React.Fragment>
             <CssBaseline />
             <PublicNavBar />
+
             {props.children}
         </React.Fragment>
     );
