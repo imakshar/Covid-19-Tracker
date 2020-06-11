@@ -1,7 +1,7 @@
 {
   "name": "frontend-boiler",
   "version": "0.1.0",
-  "proxy": "https://covid-19india-api.herokuapp.com/v2.0,https://covid-19india-api.herokuapp.com/v2.0",
+  "proxy": "https://covid-19india-api.herokuapp.com/v2.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.0",
