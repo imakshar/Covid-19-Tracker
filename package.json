@@ -6,7 +6,7 @@
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@syncfusion/ej2-react-maps": "^18.1.52",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "datamaps": "^0.5.9",
     "dotenv": "^8.2.0",
     "graphql": "^15.0.0",
